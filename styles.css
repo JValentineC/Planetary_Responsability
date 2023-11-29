@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #333;
+  background-image: url("images/c53-baground1.png");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+}
+.container {
+  display: flex;
+  color: aliceblue;
+  padding:350px;
+  background-color: rgba(255, 255, 255, 0.862);
+  border-style: inset;
+  border-width: 11px;
+  border-radius: 30px;
+  /* background-image: url("images/headshots/0 COMmunity.JPG"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name_plate {
+  display: flex;
+  color: aliceblue;
+  padding: 10px;
+  padding-left: 50px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 10, 10);
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(14, 1, 1);
+}
+.btn-grid {
+  display: flex;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  margin-top: 20px;
+  border-width: 2px;
+}
+
+
+.btn {
+  background-color: #250202b8; /* Adjust the background color */
+  border: 1px solid #2980b9; /* Adjust the border color */
+  border-radius: 5px;
+  padding: 10px 15px; /* Increase padding for better spacing */
+  transition: all 0.3s ease;
+  color: #fff; /* Text color */
+  outline: none;
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold; /* Increase font weight */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+.btn:hover {
+  background-color: #2980b9; /* Darker background color on hover */
+}
+.btn:active {
+  border-color: white;
+  color: black;
+  box-shadow: none;
+  transition: background-color 0s; /* Disable transition for the flash */
+}
+
+.enlarged-text {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.enlarged-text2 {
+  font-size: 46px;
+}
